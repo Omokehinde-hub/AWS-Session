@@ -68,6 +68,7 @@ npm install
 npm run start
 ```
 
-> NOTE - We will have to edit the **inbound rules** in the security group of our EC2, in order to allow traffic from our particular port
+> NOTE - We will have to edit the **inbound rules** in the security group of our EC2, in order to allow traffic from our particular port.
+
 > Ensure to expose the public ip address to the port open i.e :3000
 ### Project is deployed on AWS 🎉
