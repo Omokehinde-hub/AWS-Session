@@ -62,12 +62,12 @@ SECRET_KEY=""
 > For this project, we'll have to set up an [Elastic IP Address](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html) for our EC2 & that would be our `DOMAIN`
 
 3. Initialise and start the project
-   -Ensure to expose the public ip address to the port open i.e :3000
+   
 ```
 npm install
 npm run start
 ```
 
 > NOTE - We will have to edit the **inbound rules** in the security group of our EC2, in order to allow traffic from our particular port
-
+> Ensure to expose the public ip address to the port open i.e :3000
 ### Project is deployed on AWS 🎉
